@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Monetização - FinUp</title>
+    <!-- Carrega Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fonte Inter (padrão do Tailwind) */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Efeito de gradiente para títulos */
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #4f46e5, #14b8a6);
+        }
+        /* Efeito de Sombra sutil nos cards */
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+        .card-shadow:hover {
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.07), 0 4px 6px -4px rgb(0 0 0 / 0.07);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 p-6 md:p-12">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- 1. Cabeçalho -->
+        <header class="text-center mb-16">
+            <h1 class="text-5xl font-extrabold text-gray-800">FinUp</h1>
+            <h2 classs="text-3xl font-bold gradient-text mt-2">Proposta de Modelo de Monetização</h2>
+            <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">Uma Edtech/Fintech gamificada focada em educação financeira prática para as classes C e D, ajudando-as a sair das dívidas e construir estabilidade.</p>
+        </header>
+
+        <!-- 2. Proposta de Valor e Público -->
+        <section class="mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Público-Alvo -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">👥 Público-Alvo</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold mr-2">●</span>
+                            <span><strong>Classes C e D (20-35 anos)</strong>, em situação de inadimplência leve a moderada.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold mr-2">●</span>
+                            <span>Perfil digital, mas com <strong>baixa familiaridade</strong> com apps financeiros complexos.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold mr-2">●</span>
+                            <span>Buscam soluções <strong>simples, visuais e práticas</strong>, sem jargões.</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Proposta de Valor -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">🌟 Proposta de Valor</h3>
+                    <p class="text-gray-700 italic">“Recuperar o controle financeiro através de educação gamificada, simuladores práticos e ferramentas acessíveis, transformando aprendizado em progresso real.”</p>
+                    <div class="mt-4">
+                        <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mr-2 mb-2">Gamificação (Duolingo Style)</span>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mr-2 mb-2">Simuladores Interativos</span>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mr-2 mb-2">Educação Prática</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. O Modelo 'Freemium' (Core Loop) -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">O Motor de Aquisição: Modelo Freemium</h2>
+            <div class="bg-white rounded-xl border border-gray-200 shadow-xl overflow-hidden">
+                <table class="min-w-full">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="p-5 text-left text-lg font-semibold text-gray-700">Funcionalidade</th>
+                            <th class="p-5 text-center text-lg font-semibold text-blue-600">Acesso Gratuito (Aquisição)</th>
+                            <th class="p-5 text-center text-lg font-semibold text-green-600">FinUp Plus (Monetização)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-5 text-gray-700 font-medium">Trilhas de Aprendizado</td>
+                            <td class="p-5 text-center text-gray-600">Trilha “Primeiros Passos”</td>
+                            <td class="p-5 text-center text-green-600 font-medium">✅ Todas as trilhas e módulos</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-5 text-gray-700 font-medium">Simuladores</td>
+                            <td class="p-5 text-center text-gray-600">Calculadora de juros simples</td>
+                            <td class="p-5 text-center text-green-600 font-medium">✅ Simuladores complexos e comparativos</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-5 text-gray-700 font-medium">Gamificação (Missões e Vidas)</td>
+                            <td class="p-5 text-center text-gray-600">1 missão/dia, Limite de 3 "vidas"</td>
+                            <td class="p-5 text-center text-green-600 font-medium">✅ Missões ilimitadas, Vidas ilimitadas</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-5 text-gray-700 font-medium">Experiência de Uso</td>
+                            <td class="p-5 text-center text-gray-600">Contém publicidade ética</td>
+                            <td class="p-5 text-center text-green-600 font-medium">✅ Experiência 100% sem anúncios</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="p-5 text-gray-700 font-medium">Recompensas</td>
+                            <td class="p-5 text-center text-gray-600">Recompensas básicas</td>
+                            <td class="p-5 text-center text-green-600 font-medium">✅ Recompensas exclusivas, boosters e avatares</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center text-gray-600 mt-4 italic"><strong>Incentivos ao Upgrade:</strong> Recursos bloqueados (🔒), notificações de progresso e descontos no primeiro mês.</p>
+        </section>
+
+        <!-- 4. Fluxos de Receita (Principal e Complementar) -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Fluxos de Receita (Visão 360°)</h2>
+            
+            <h3 class="text-2xl font-semibold text-gray-700 mb-6">Receitas Principais (B2C e B2B)</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Assinatura Premium -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow transform transition-transform hover:scale-105">
+                    <h4 class="text-xl font-bold text-blue-600">1. Assinatura Premium (B2C)</h4>
+                    <p class="text-gray-600 mt-2">Receita recorrente (MRR) de usuários que buscam a solução completa. (Ref: Mobills, Oinc Pro)</p>
+                </div>
+                <!-- Mentorias e Assessoria -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow transform transition-transform hover:scale-105">
+                    <h4 class="text-xl font-bold text-blue-600">2. Mentorias e Assessoria (B2C)</h4>
+                    <p class="text-gray-600 mt-2">Venda avulsa de sessões (30-60 min) com especialistas financeiros para quem busca ajuda personalizada.</p>
+                </div>
+                <!-- Parcerias B2B (Benefício) -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow transform transition-transform hover:scale-105">
+                    <h4 class="text-xl font-bold text-blue-600">3. Parcerias B2B (Benefício)</h4>
+                    <p class="text-gray-600 mt-2">Empresas (RHs, Cooperativas) oferecem o FinUp Pro como benefício de saúde financeira aos seus funcionários.</p>
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-semibold text-gray-700 mt-10 mb-6">Receitas Complementares (Ecossistema)</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Publicidade Ética -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h4 class="text-xl font-bold text-teal-600">4. Publicidade Ética (B2B)</h4>
+                    <p class="text-gray-600 mt-2">Parcerias com empresas de renegociação (ex: Serasa) e bancos, sem venda de dados pessoais, apenas "brand content".</p>
+                </div>
+                <!-- Dados Anonimizados -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h4 class="text-xl font-bold text-teal-600">5. Dados Anonimizados (B2B)</h4>
+                    <p class="text-gray-600 mt-2">Venda de relatórios de *comportamento* (anonimizados) para o mercado B2B, respeitando a LGPD.</p>
+                </div>
+                <!-- Marketplace Interno -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h4 class="text-xl font-bold text-teal-600">6. Marketplace Interno</h4>
+                    <p class="text-gray-600 mt-2">Integração com ferramentas financeiras parceiras (cartão pré-pago, poupança digital) com comissão.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Estratégia de Preços -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Estratégia de Preços (Acessível)</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">Preços desenhados para a realidade das classes C e D, com forte percepção de valor no plano Plus.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                <!-- Plano Free -->
+                <div class="bg-white p-6 rounded-xl border border-gray-300 card-shadow flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-800">Free</h3>
+                    <p class="text-3xl font-extrabold text-gray-900 mt-2">R$ 0</p>
+                    <p class="text-gray-500 mt-1">Acesso básico</p>
+                    <ul class="space-y-2 text-gray-600 mt-6 flex-grow">
+                        <li>Trilha "Primeiros Passos"</li>
+                        <li>1 simulador básico</li>
+                        <li>Com anúncios</li>
+                        <li>Limite de vidas</li>
+                    </ul>
+                </div>
+
+                <!-- Plano Plus (Destaque) -->
+                <div class="bg-blue-600 text-white p-6 rounded-xl border border-blue-700 shadow-2xl flex flex-col transform scale-105">
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-xl font-bold">FinUp Plus</h3>
+                        <span class="bg-white text-blue-600 text-xs font-bold px-3 py-1 rounded-full">MAIS POPULAR</span>
+                    </div>
+                    <p class="text-3xl font-extrabold mt-2">R$ 9,90<span class="text-lg font-normal text-blue-100">/mês</span></p>
+                    <p class="text-blue-100 mt-1">Solução completa</p>
+                    <ul class="space-y-2 mt-6 flex-grow">
+                        <li><strong>✅ Todos Simuladores</strong></li>
+                        <li><strong>✅ Missões ilimitadas</strong></li>
+                        <li><strong>✅ Vidas extras</strong></li>
+                        <li><strong>✅ Sem anúncios</strong></li>
+                    </ul>
+                </div>
+
+                <!-- Plano Pro -->
+                <div class="bg-white p-6 rounded-xl border border-gray-300 card-shadow flex flex-col">
+                    <h3 class="text-xl font-bold text-gray-800">FinUp Pro</h3>
+                    <p class="text-3xl font-extrabold text-gray-900 mt-2">R$ 19,90<span class="text-lg font-normal text-gray-500">/mês</span></p>
+                    <p class="text-gray-500 mt-1">Tudo do Plus + Mentoria</p>
+                    <ul class="space-y-2 text-gray-600 mt-6 flex-grow">
+                        <li>✅ Tudo do Plus</li>
+                        <li><strong>+ Mentorias em grupo</strong></li>
+                        <li><strong>+ Descontos de parceiros</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Roadmap, Custos e KPIs -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Projeção de Sustentabilidade</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- Roadmap de Tração -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6">Roadmap de Tração (Simplificado)</h3>
+                    <ol class="relative border-l border-gray-200">                  
+                        <li class="mb-6 ml-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                            <h4 class="text-lg font-semibold text-gray-900">Fase 1 (0-6 meses)</h4>
+                            <p class="text-base font-normal text-gray-600">Lançar MVP gratuito e captar <strong>5.000 usuários</strong> via influenciadores.</p>
+                        </li>
+                        <li class="mb-6 ml-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                            <h4 class="text-lg font-semibold text-gray-900">Fase 2 (6-12 meses)</h4>
+                            <p class="text-base font-normal text-gray-600">Converter <strong>10% dos usuários</strong> para o plano premium (foco em gamificação).</p>
+                        </li>
+                        <li class="mb-6 ml-4">
+                            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                            <h4 class="text-lg font-semibold text-gray-900">Fase 3 (12-24 meses)</h4>
+                            <p class="text-base font-normal text-gray-600">Atingir <strong>30.000 usuários</strong> e <strong>Break-Even</strong>. Inserir mentorias e B2B.</p>
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- KPIs e Custos -->
+                <div class="bg-white p-6 rounded-xl border border-gray-200 card-shadow">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6">Custos Iniciais & KPIs-Chave</h3>
+                    
+                    <h4 class="text-lg font-semibold text-gray-700">Custos Operacionais (Estimativa Inicial)</h4>
+                    <p class="text-gray-600 mb-4">Total: <strong>R$ 9.800/mês</strong> (Tecnologia, Equipe, Marketing, Admin)</p>
+
+                    <h4 class="text-lg font-semibold text-gray-700 mt-6">Indicadores-Chave (KPIs) para Monitorar</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="bg-red-100 text-red-800 text-sm font-medium px-3 py-1 rounded-full">CAC</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium px-3 py-1 rounded-full">LTV</span>
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">MRR</span>
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full">Churn</span>
+                        <span class="bg-purple-100 text-purple-800 text-sm font-medium px-3 py-1 rounded-full">Break-Even</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">ROI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Ecossistema de Parceiros -->
+        <section>
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Ecossistema de Parceiros Estratégicos</h2>
+            <div class="bg-white p-8 rounded-xl border border-gray-200 card-shadow">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="flex flex-col items-center">
+                        <div class="p-4 bg-gray-100 rounded-full">
+                            <svg class="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <p class="mt-3 font-semibold text-gray-700">Serasa / Boa Vista</p>
+                        <p class="text-sm text-gray-500">(Renegociação e Educação)</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="p-4 bg-gray-100 rounded-full">
+                             <svg class="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                        </div>
+                        <p class="mt-3 font-semibold text-gray-700">Fintechs (Nubank, Inter)</p>
+                        <p class="text-sm text-gray-500">(Marketplace e Ferramentas)</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="p-4 bg-gray-100 rounded-full">
+                            <svg class="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m-1 4h1m3 0h1m-1-4h1m-1-4h1m3 4h1m-1-4h1m-1-4h1"></path></svg>
+                        </div>
+                        <p class="mt-3 font-semibold text-gray-700">SEBRAE / ONGs</p>
+                        <p class="text-sm text-gray-500">(Licenciamento Educacional)</p>
+                    </div>
+                     <div class="flex flex-col items-center">
+                        <div class="p-4 bg-gray-100 rounded-full">
+                           <svg class="w-10 h-10 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 016-6h6m6 6v-1a6 6 0 00-6-6H9a6 6 0 00-6 6v1h12z"></path></svg>
+                        </div>
+                        <p class="mt-3 font-semibold text-gray-700">Empresas (RHs)</p>
+                        <p class="text-sm text-gray-500">(Saúde Financeira B2B)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
